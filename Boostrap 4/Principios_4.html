@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<!-- Grupo de Lista, migas de pan, y navegacion -->
+<!-- Video 11 y 12 -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Diaz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+
+
+<!-- Con esta clase centramos el contenido -->
+<body class="container">
+    
+    <!-- Aqui para abajo todo es del video 12 -->
+    
+    
+    
+    <!-- Se escribe nav para crear una navegacion -->
+    <!-- Una navegacion simple -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <a href="#" class="navbar-brand">
+            App
+        </a>
+
+        <div class="navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <hr><hr>
+    <!-- Aqui una navegacion con otro estilo, estilo hamburguesa -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <a href="#" class="navbar-brand">
+            App
+        </a>
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#SengundaNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="SengundaNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <hr><hr>
+    <!-- Aqui una navegacion con una busqueda -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <a href="#" class="navbar-brand">
+            App
+        </a>
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#TecerNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="TecerNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <form class="form-inline">
+                <input type="text" class="form-control" placeholder="Buscar">
+                <button type="button" class="btn btn-outline-success">
+                    Buscar
+                </button>
+
+            </form>
+        </div>
+    </nav>
+
+
+    <hr><hr>
+    <!-- Aqui una navegacion con una busqueda -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+        <a href="#" class="navbar-brand">
+            App
+        </a>
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#TecerNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="TecerNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
+                        Hola Mundo
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Link 1</a>
+                        <a href="#" class="dropdown-item">Link 2</a>
+                        <a href="#" class="dropdown-item">Link 3</a>
+                        <a href="#" class="dropdown-item">Link 4</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <hr><hr><hr><hr><hr><hr><hr><hr>
+
+    <!--  Video 12, Alertas y barra progresiva-->
+
+    <div class="alert alert-danger">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-secundary">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-success">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-warning">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-info">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-light">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-dark">
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-warning">
+        <h3>Titulo</h3>
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>    
+
+    <hr><hr>
+
+    <!-- Aqui una alerta con un boton que se cierra cerrar -->
+    <div class="alert alert-success ">
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+    <div class="alert alert-success alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        <strong>Mensaje</strong> Esto es un error <a href="#" class="alert-link">Click Aqui</a>
+    </div>
+
+
+    <!-- Aqui hago una barra progresiva -->
+    <hr><hr><hr>
+
+    <div class="progress">
+        <div class="progress-bar" style="width: 25%;"></div>
+    </div>
+
+    <br>
+    
+    <div class="progress">
+        <div class="progress-bar bg-success" style="width: 50%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-warning" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-danger" style="width: 100%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-dark" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-info " style="width: 50%;"></div>
+    </div>
+
+
+
+    <!-- Aqui hago una barra progresiva con lineas -->
+    <hr><hr><hr>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width: 25%;"></div>
+    </div>
+
+    <br>
+    
+    <div class="progress">
+        <div class="progress-bar bg-success progress-bar-striped" style="width: 50%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-warning progress-bar-striped" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-danger progress-bar-striped" style="width: 100%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-dark progress-bar-striped" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-info progress-bar-striped" style="width: 50%;"></div>
+    </div>
+
+    <!-- Aqui hago una barra progresiva con lineas -->
+    <hr><hr><hr>
+
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 25%;"></div>
+    </div>
+
+    <br>
+    
+    <div class="progress">
+        <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 100%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-dark progress-bar-striped progress-bar-animated" style="width: 75%;"></div>
+    </div>
+
+    <br>
+
+    <div class="progress">
+        <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 50%;"></div>
+    </div>
+
+
+
+
+
+
+    <!-- Aqui para abajo todo es del video 11 -->
+    <!-- Esto es una lista de elementos -->
+    <ul class="list-group">
+        <li class="list-group-item">Hola Mundo</li>
+        <li class="list-group-item">Hola Mundo</li>
+        <li class="list-group-item">Hola Mundo</li>
+        <li class="list-group-item">Hola Mundo</li>
+
+    </ul>
+    
+    <hr><hr>
+    <!-- Esto es una lsita de enlances -->
+    <ul class="list-group">
+        <a href="#" class="list-group-item">Enlance 1</a>
+        <a href="#" class="list-group-item">Enlance 2</a>
+        <a href="#" class="list-group-item">Enlance 3</a>
+        <a href="#" class="list-group-item">Enlance 4</a>
+
+    </ul>
+
+    <hr><hr>
+    <!-- Aqui una lista con colores -->
+    <ul class="list-group">
+        <a href="#" class="list-group-item">Enlace 1</a>
+        <a href="#" class="list-group-item list-group-item-primary">Enlace 2</a>
+        <a href="#" class="list-group-item list-group-item-secondary">Enlace 3</a>
+        <a href="#" class="list-group-item list-group-item-success">Enlace 4</a>
+        <a href="#" class="list-group-item list-group-item-danger">Enlace 5</a>
+        <a href="#" class="list-group-item list-group-item-warning">Enlace 6</a>
+        <a href="#" class="list-group-item list-group-item-info">Enlace 7</a>
+        <a href="#" class="list-group-item list-group-item-light">Enlace 8</a>
+        <a href="#" class="list-group-item list-group-item-dark">Enlace 9</a>
+        
+    </ul>
+
+    <!-- Badges -->
+    <hr><hr>
+    <ul class="list-group">
+
+        <!-- Aqui al colocar la propiedad de badge a el texto en span cambia y se puede usar para notidficacioens esto al colocar badge-pill se convierte en circulo -->
+        <a href="#" class="list-group-item">Lorem <span class="badge">80</span></a>
+        <a href="#" class="list-group-item">Lorem <span class="badge badge-primary">80</span></a>
+        <a href="#" class="list-group-item">Lorem <span class="badge badge-primary badge-pill">80</span></a>
+
+        <!-- Si quiero alinearlo a la derecha -->
+        <a href="#" class="list-group-item d-flex justify-content-between align-items-center">Lorem <span class="badge badge-primary badge-pill">80</span></a>
+
+
+    </ul>
+
+    <hr><hr>
+    <!-- Aqui es un parrafo en forma de enlance con un estilo que le agregado -->
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+            <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">Lorem Impsum</h5>
+                <small> 3 days ago</small>
+            </div>
+            <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, sed quod. Ab porro quis dolores fugiat eveniet corrupti, qui nisi quas accusantium, ipsa soluta provident exercitationem impedit ex voluptatibus nemo.</p>
+        </a>
+
+    </div>
+    <hr><hr>
+
+
+    <!-- Aqui es una lista ordenada -->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">lorem</li>
+    </ol>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">lorem</li>
+        <li class="breadcrumb-item">lorem</li>
+        <li class="breadcrumb-item">lorem</li>
+    </ol>
+
+    <ol class="breadcrumb">
+        <a href="#" class="breadcrumb-item"> Elance 1</a>
+        <a href="#" class="breadcrumb-item"> Elance 1</a>
+        <a href="#" class="breadcrumb-item"> Elance 1</a>
+    </ol>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

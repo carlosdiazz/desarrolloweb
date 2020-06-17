@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- Aqui estan los principios de HTML del Primer Video De FAZT -->
+
+<html lang="es">
+    <head>
+        <!--Con Esta etiqueta creamos un titulo-->
+        <title>Primera pagina Web</title>
+         
+        <!--Aqui usamos la opcion de meta para mejorar la busqueda en google-->
+        <meta name="description" content="Esta es mi primera pagina web"/>
+        <meta name="author" content="Carlos Diaz"/>
+        <meta name="Keywords" content="Mi primera pagina, Pagina web, Principiante"/>    
+        <meta charset="utf-8" />
+        
+        <!-- Se coloca el simbolo de # para indicar que es un id -->
+        <!-- Se coloca un . para indicar que es una clase -->
+        <!-- Si coloco * afecto toda la pagina -->
+        <style>
+
+            
+            #cabecera{
+                background: crimson;
+                color: darkgray;
+            }
+
+            footer{
+                background: brown;
+            }
+
+            .fondo{
+                background: darkkhaki;
+            }
+
+            *{
+                background: darkorange;
+            }
+
+            
+
+        </style>
+
+    </head> 
+
+    <body>
+        
+        <!--Aqui indicamo que esto va en la cabeza del cuerpo-->
+        <header id="cabecera">
+            <!--Con este h1 decimos que es un titulo-->
+            <h1>Blog De Carlos Diaz</h1>
+        </header>
+
+        <!-- Aqui estoy colocando un id a mi nav -->
+        <!--Aqui para crear un menu de navegacion con una lista-->
+        <nav id="navegacion">
+            <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+        <!--Aqui es para crear una seccion con diferentes articulos-->
+        <section>
+            <article>
+                <hgroup>
+                    <h1>Titulo del Primer Articulo</h1>
+                    <h2>Subtitulo</h2>
+                </hgroup>
+                <time datetime="10-06-2020">Publicado 10-06-2020</time>
+                <p class="fondo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ducimus doloribus distinctio magnam veritatis illum perspiciatis 
+                    nobis quas pariatur, aperiam sapiente expedita obcaecati eius, 
+                    placeat quisquam iure error consequuntur repellat rem?</p>
+                
+                    <img src="img/foto.png"> 
+
+                <!-- Aqui creo un enlance de algo -->
+                <address>
+                    <a href="http://Youtube.com">Visita Youtube</a>
+                </address>
+
+                
+            </article>
+ 
+            <article>
+                <hgroup>
+                    <h1>Titulo del Segundo Articulo</h1>
+                    <h2>Subtitulo</h2>
+                </hgroup>
+
+                <time datetime="25-02-2020" >Publicado 25-02-2020</time>
+                <p class="fondo">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Magni omnis inventore adipisci quisquam consectetur debitis non
+                    saepe veritatis excepturi dolorum, at quam corporis eum exercitationem 
+                    eveniet! Architecto quis molestiae nisi.</p>
+                    <footer>
+                        Publicado Por Carlos Diaz
+                    </footer>
+            
+            
+                </article>
+        </section>
+
+        <!-- Colocar contenidos que no sea muy importantes -->
+        <aside>
+            Archivo Acerca de
+        </aside>
+
+        <!-- Para colocar el pie de pagina -->
+        <footer>
+            Derecho Reservados Carlos Diaz
+        </footer>
+    </body>
+</html>

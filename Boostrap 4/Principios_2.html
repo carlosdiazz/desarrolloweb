@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<!-- Floats y posiicones, colores de texto y fondos, padding, margenes, altos y anchos, breakpoint.. -->
+<!-- Video del 5 al 9 curso de FAZT -->
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Carlos Diaz" >
+    <title>Carlos Diaz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- BREAKPOINTS -->
+    <!-- Es una manera que a partir del tamaño de la pantalla los CSS cambian-->
+
+    <style media="screen ">
+    
+    
+    @media(min-width: 576px){
+        body{
+            background: white;
+        }
+    }
+
+    @media(min-width: 768px){
+        body{
+            background: blanchedalmond;
+        }
+    }
+
+    @media(min-width: 992px){
+        body{
+            background: bisque;
+        }
+    }
+
+    @media(min-width: 1200px){
+        body{
+            background: beige;
+        }
+    }
+
+    </style>
+
+</head>
+<body>
+     
+
+
+    <div class="float-left">
+        Hola
+    </div>
+
+    <div class="float-right">
+        Hola
+    </div>
+
+    <div class="float-right">
+        Hola
+    </div>
+    <br><br>    <!-- Para dejar dos espcacio -->
+    <hr><hr>    <!-- Para poner dos lineas -->
+
+    <div class="bg-success clearfix">
+        <button class=float-left> Izquierda </button>
+        <button class="float-right"> Derecha </button>
+
+    </div>
+
+    <!--<h3 class="fixed-top">Navegacion</h3>  -->   <!--  Para poner algo fijo arriba -->
+    <h3 class="sticky-top">Navegacion 2.0</h3>
+           
+    <h3 class="fixed-bottom">Pie Carlos Diaz</h3> <!-- Para que se quede siempre visible y en el pie -->
+    
+    <!-- Altos y ancho en bootstrap -->
+
+    <!-- Se usa la palabra w para indicar que solo ocupe cierta cantida de ancho y se pone el numero en porciento solo se pueden 25% 50% 75% 100% de la pantalla  -->
+    <div class="bg-success p-3 w-25">
+        Hola mundo
+    </div>
+
+    <div class="bg-success p-3 w-50">
+        Hola mundo
+    </div>
+
+    <div class="bg-success p-3 w-75">
+        Hola mundo
+    </div>
+
+    <div class="bg-success p-3 w-100">
+        Hola mundo
+    </div>
+
+    <hr><hr> <hr><hr> 
+
+    <div class="bg-warning " style="border: 1px solid black; height: 300px;">
+        <div class="bg-primary d-inline-block h-25">elemento 1</div>
+        <div class="bg-primary d-inline-block h-50 ">elemento 2</div>
+        <div class="bg-primary d-inline-block h-75">elemento 3</div>
+        <div class="bg-primary d-inline-block h-100">elemento 4</div>
+    </div>
+
+    <hr><hr> <hr><hr> 
+    <!-- Margin usando bootstrap -->
+    <!-- para agregarlo se usa la letra M para el margen y T si es para arriba luego el nuemro de margen que queremos dejar  -->
+    
+    <h1 class="bg-dark text-white mt-5">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mt-4">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mt-3">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mt-2">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mt-1">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mt-0">Hola Mundo</h1>
+
+    <hr><hr><hr>
+
+    <!-- para agregarlo se usa la letra M para el margen y B si es para abajo luego el numero de margen que queremos dejar  -->
+    <h1 class="bg-dark text-white mb-5">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mb-4">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mb-3">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mb-2">Hola Mundo</h1>
+    <h1 class="bg-dark text-white mb-1">Hola Mundo</h1>
+
+    <hr><hr><hr>
+    <!-- Agregando p- se agrega un padding en todos sus lados-->
+    <h1 class="bg-dark text-white p-5">Hola Mundo</h1>
+    <h1 class="bg-dark text-white p-4">Hola Mundo</h1>
+    <h1 class="bg-dark text-white p-3">Hola Mundo</h1>
+    <h1 class="bg-dark text-white p-2">Hola Mundo</h1>
+    <h1 class="bg-dark text-white p-1">Hola Mundo</h1>
+
+
+    <hr><hr><hr>
+    
+    <!-- Para agregar un margin se coloca M y si es para la izquierda L y si es para la derecha R -->
+    <p class="ml-5">Hola mundo <span class="ml-5">Hello</span></p>
+    
+    <hr>
+    <!-- Para agregar un margin se coloca M y si es para X se coloca una X si es para Y una Y ams el numero de margin-->
+    <p>Carlos <span class="mx-5"> Jose </span> Diaz</p>
+
+    <hr><hr><hr>
+
+    <!-- Para agregar un padding se agrega la letra P mas la otra inicalk de donde lo queremsos mas el numero -->
+    <h1 class="bg-warning pt-5 ">Hola mundo</h1>
+    <h1 class="bg-warning pt-4 ">Hola mundo</h1>
+    <h1 class="bg-warning pt-3 ">Hola mundo</h1>
+    <h1 class="bg-warning pt-2 ">Hola mundo</h1>
+    <h1 class="bg-warning pt-1 ">Hola mundo</h1>
+
+    <hr><hr><hr>
+
+    <h1 class="bg-warning pb-5 ">Hola mundo</h1>
+    <h1 class="bg-warning pb-4 ">Hola mundo</h1>
+    <h1 class="bg-warning pb-3 ">Hola mundo</h1>
+    <h1 class="bg-warning pb-2 ">Hola mundo</h1>
+    <h1 class="bg-warning pb-1 ">Hola mundo</h1>
+
+
+
+
+
+
+    <!-- Colores en Bootstrap -->
+    <p class="text-primary ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+    <p class="text-mute">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui veniam praesentium veritatis quos sint corrupti quod autem ipsa quia impedit? Mollitia iusto placeat molestias at temporibus nostrum deserunt sed repellat.</p>
+
+    <hr><hr>
+    <!-- Usando la palabra bg- mas el nombre del color se le agrega el background -->
+    <div class="bg-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    <div class="bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    <div class="bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    <div class="bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    <div class="bg-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    <div class="bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolores non quaerat delectus fugit autem cumque nihil vitae maiores? Sapiente, id tenetur dolores quisquam sequi itaque nihil aspernatur laborum vel.</div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+</body>
+</html>
